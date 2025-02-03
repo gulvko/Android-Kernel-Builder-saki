@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "saki-KernelSU",
+      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sdm845",
+      "branch": "lineage-22.1",
+      "device": "polaris"
     },
     "withKernelSU": true,
     "toolchains": [
@@ -14,7 +14,7 @@
       },
       {
         "repo": "https://gitlab.com/ThankYouMario/android_prebuilts_clang-standalone/",
-        "branch": "11",
+        "branch": "18",
         "name": "clang"
       }
     ],
